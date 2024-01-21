@@ -1,13 +1,13 @@
 [gd_scene load_steps=3 format=3 uid="uid://crx8p5imk8vro"]
 
-[ext_resource type="Texture2D" uid="uid://clhmj6sy1657e" path="res://icon.svg" id="1_2ubqn"]
 [ext_resource type="Script" path="res://world.gd" id="1_4i2wa"]
+[ext_resource type="Texture2D" uid="uid://c5i553e4t0n17" path="res://hellboy.png" id="2_lt1x5"]
 
 [node name="World" type="Node2D"]
 script = ExtResource("1_4i2wa")
 
 [node name="Icon" type="Sprite2D" parent="."]
 position = Vector2(692, 331)
-texture = ExtResource("1_2ubqn")
+texture = ExtResource("2_lt1x5")
 
 [node name="Node2D" type="Node2D" parent="."]
